@@ -1,25 +1,90 @@
+/* ------------ FONTS ------------ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #fff;
+}
+
 /* ------------ BACKGROUNDS ------------ */
 
+.bg-blue{
+    background-color: hsl(246, 80%, 60%);
+}
+
 .bg-orange{
-  background-color:  #FF8B64;
+  background-color:  hsl(15, 100%, 70%);
 }
 
 .bg-watergreen{
-    background-color: #56C2E6;
+    background-color: hsl(195, 74%, 62%);
 }
 
 .bg-red{
-    background-color: #FF5E7D;
+    background-color: hsl(348, 100%, 68%);
 }
 
 .bg-green{
-    background-color: #4BCF83;
+    background-color: hsl(145, 58%, 55%);
 }
 
 .bg-violet{
-    background-color: #7235D1;
+    background-color: hsl(264, 64%, 52%);
 }
 
 .bg-yellow{
-    background-color: #F1C75B;
+    background-color: hsl(43, 84%, 65%);
 }
+
+.bg-dark-blue{
+    background-color: hsl(235, 46%, 20%)
+}
+
+.bg-very-dark-blue{
+    background-color: hsl(226, 43%, 10%);
+}
+
+.bg-desaturated-blue{
+    background-color: hsl(235, 45%, 61%);
+}
+
+.bg-pale-blue{
+    background-color: hsl(236, 100%, 87%);
+}
+
+/* ------------ HIDDEN ATTRIBUTES ------------ */
+
+.hidden{
+    display: none;
+}
+
+/* -------------------------------------------------------------
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Neutral
+
+- Very dark blue: 
+- Dark blue: 
+- Desaturated blue: 
+- Pale Blue: 
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px (card titles e.g. Work, Play)
+
+### Font
+
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 300, 400, 500
+*/
